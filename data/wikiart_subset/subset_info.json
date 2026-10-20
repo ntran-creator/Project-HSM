@@ -9,25 +9,31 @@
     "Pop_Art",
     "Ukiyo_e"
   ],
-  "per_class": 100,
+  "per_class": 300,
   "size": 128,
   "crop": true,
   "seed": 0,
   "strategy": "fewest-shards",
   "max_per_artist": 50,
   "shards": [
+    47,
+    48,
     54,
     61,
-    70
+    66,
+    68,
+    69,
+    70,
+    71
   ],
   "counts": {
-    "Baroque": 100,
-    "Cubism": 100,
-    "Impressionism": 100,
-    "Pop_Art": 100,
-    "Ukiyo_e": 100
+    "Baroque": 300,
+    "Cubism": 300,
+    "Impressionism": 300,
+    "Pop_Art": 300,
+    "Ukiyo_e": 300
   },
-  "total": 500,
-  "command": "python make_wikiart_subset.py --label style --classes Impressionism Baroque Cubism Ukiyo_e Pop_Art --per-class 100 --size 128 --out data/wikiart_subset",
-  "created_utc": "2026-10-17T10:43:13+00:00"
+  "total": 1500,
+  "command": "python make_wikiart_subset.py --label style --classes Impressionism Baroque Cubism Ukiyo_e Pop_Art --per-class 300 --size 128 --out data/wikiart_style5",
+  "created_utc": "2026-10-20T10:12:11+00:00"
 }
