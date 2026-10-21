@@ -1,0 +1,3 @@
+model,test_accuracy,trainable_parameters,trainable_parameters_during_finetuning
+Dense baseline,0.38666666666666666,6358277.0,
+ResNet-18 fine-tuned,0.8,,8396293.0

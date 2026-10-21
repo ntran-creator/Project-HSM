@@ -1,0 +1,18 @@
+{
+  "dataset": "data/wikiart_subset",
+  "classes": [
+    "Baroque",
+    "Cubism",
+    "Impressionism",
+    "Pop_Art",
+    "Ukiyo_e"
+  ],
+  "n_images": 1500,
+  "n_train": 1050,
+  "n_validation": 225,
+  "n_test": 225,
+  "dense_test_accuracy": 0.38666666666666666,
+  "resnet_finetuned_test_accuracy": 0.8,
+  "device": "cpu",
+  "seed": 42
+}
